@@ -6,7 +6,8 @@ import Cart from "./Cart";
 const Courses = () => {
 
     const [courses, setCourses] = useState([]);
-    const [selectCourse, setSelectCourse] = useState([])
+    const [selectCourse, setSelectCourse] = useState([]);
+    const [remainingCredits, setRemainingCredits] = useState(0)
     useEffect(() => {
         fetch('courses.json')
         .then(res => res.json())
@@ -14,7 +15,32 @@ const Courses = () => {
     },[]);
 
     const handleSelectButton = (course) => {
-           setSelectCourse([...selectCourse, course])
+        const isExist = selectCourse.find(findItem => findItem.id == course.id);
+
+        let totalCredits =  course.credits;
+        if(isExist){
+           return alert("Already Selected This Course!");
+        }
+          else{
+
+            selectCourse.forEach(newCredits => {   
+                totalCredits = totalCredits + newCredits.credits
+            })
+
+            
+            const totalRemainingCredits = 21 - totalCredits;
+            if(totalRemainingCredits >= 0){
+                setRemainingCredits(totalRemainingCredits);
+                setSelectCourse([...selectCourse, course]);
+            }
+            else{
+                
+                alert("Credits Limits Exist!")
+            }
+        
+
+            
+          }
     };
     return (
         <div className=" ml-6 flex">
@@ -30,7 +56,11 @@ const Courses = () => {
            </div>
            <div className="mr-2">
             <div className="w-[312px] h-[402px] text-center border-2  mt-7">
-            <Cart selectCourse = {selectCourse} ></Cart>
+            <Cart 
+            selectCourse = {selectCourse}
+            remainingCredits = {remainingCredits}
+            
+            ></Cart>
         </div>
         </div>
         </div>
