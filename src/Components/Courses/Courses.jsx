@@ -7,7 +7,9 @@ const Courses = () => {
 
     const [courses, setCourses] = useState([]);
     const [selectCourse, setSelectCourse] = useState([]);
-    const [remainingCredits, setRemainingCredits] = useState(0)
+    const [remainingCredits, setRemainingCredits] = useState(20);
+    const [credits, setCredits] = useState(0);
+    const [price, setPrice] = useState(0);
     useEffect(() => {
         fetch('courses.json')
         .then(res => res.json())
@@ -18,6 +20,7 @@ const Courses = () => {
         const isExist = selectCourse.find(findItem => findItem.id == course.id);
 
         let totalCredits =  course.credits;
+        let totalPrice = course.price;
         if(isExist){
            return alert("Already Selected This Course!");
         }
@@ -27,11 +30,19 @@ const Courses = () => {
                 totalCredits = totalCredits + newCredits.credits
             })
 
+            selectCourse.forEach(newPrice => {
+                totalPrice = totalPrice + newPrice.price
+            })
+
             
-            const totalRemainingCredits = 21 - totalCredits;
+            const totalRemainingCredits = 20 - totalCredits;
+    
+           
             if(totalRemainingCredits >= 0){
                 setRemainingCredits(totalRemainingCredits);
                 setSelectCourse([...selectCourse, course]);
+                setCredits(totalCredits);
+                setPrice(totalPrice)
             }
             else{
                 
@@ -43,7 +54,7 @@ const Courses = () => {
           }
     };
     return (
-        <div className=" ml-6 flex">
+        <div className=" ml-6 flex mb-12">
 
            <div className="grid grid-cols-3 gap-y-8  mt-6">
            {
@@ -55,10 +66,12 @@ const Courses = () => {
             }
            </div>
            <div className="mr-2">
-            <div className="w-[312px] h-[402px] text-center border-2  mt-7">
+            <div className="w-[312px] h-[460px] text-center border-2  mt-7 rounded-xl">
             <Cart 
             selectCourse = {selectCourse}
             remainingCredits = {remainingCredits}
+            credits = {credits}
+            price = {price}
             
             ></Cart>
         </div>
