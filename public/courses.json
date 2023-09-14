@@ -1,0 +1,75 @@
+[
+    {
+      "course_id": "CSE101",
+      "course_name": "Introduction to OOP Python",
+      "course_img": "https://i.ibb.co/hMcftY3/Rectangle-2.png",
+      "course_details": "Python is a versatile and popular programming language known for its simplicity and readability. It is widely used for a variety of applications, including web development, data analysis, artificial intelligence, scientific computing, and more. Python has a large and active community of developers, which means there are plenty of resources available to learn and use the language effectively. ",
+      "course_price": 2099.99,
+      "course_credits": 3
+    },
+    {
+      "course_id": "CSE102",
+      "course_name": "Database (MySQL)",
+      "course_img": "https://i.ibb.co/YDtkh7P/Rectangle-2-1.png",
+      "course_details": "MySQL is a popular open-source relational database management system (RDBMS) that is widely used for storing, managing, and retrieving data. Learning MySQL is essential for anyone interested in working with databases and data-driven applications.",
+      "course_price": 3409.99,
+      "course_credits": 4
+    },
+    {
+      "course_id": "CSE201",
+      "course_name": "Introduction to C Programming",
+      "course_img": "https://i.ibb.co/2jWrJyH/Rectangle-2-2.png",
+      "course_details": "Learning the C programming language is an excellent starting point for anyone interested in computer programming and software development. C is a versatile and widely used programming language that forms the foundation for many other languages.",
+      "course_price": 3979.99,
+      "course_credits": 2
+    },
+    {
+      "course_id": "CSE202",
+      "course_name": "Introduction to Algorithms",
+      "course_img": "https://i.ibb.co/nbVDyCT/Rectangle-2-3.png",
+      "course_details": "Learning about algorithms is fundamental in computer science and programming. Algorithms are step-by-step procedures for solving problems and performing tasks efficiently.",
+      "course_price": 1299.99,
+      "course_credits": 3
+    },
+    {
+      "course_id": "CSE301",
+      "course_name": "Introduction to C++ for DSA",
+      "course_img": "https://i.ibb.co/sPpmtzV/Rectangle-2-4.png",
+      "course_details": "C++ is a powerful and versatile programming language commonly used for various software development applications, including system software, games, desktop applications, and more.",
+      "course_price": 4489.99,
+      "course_credits": 3
+    },
+    {
+      "course_id": "CSE302",
+      "course_name": "Software Engineering",
+      "course_img": "https://i.ibb.co/ZBD7VBf/Rectangle-2-5.png",
+      "course_details": "Software engineering is the systematic approach to designing, developing, testing, and maintaining software systems. It encompasses a wide range of principles, methodologies, and practices to ensure that software projects are completed successfully and meet their intended objectives.",
+      "course_price": 3249.99,
+      "course_credits": 4
+    },
+    {
+      "course_id": "CSE401",
+      "course_name": "Problem-Solving Part",
+      "course_img": "https://i.ibb.co/dMjwTVN/Rectangle-2-6.png",
+      "course_details": "Problem-solving is a crucial skill in software engineering and computer science. It involves finding efficient and effective solutions to real-world problems using computational and algorithmic techniques.",
+      "course_price": 3699.99,
+      "course_credits": 2
+    },
+    {
+      "course_id": "CSE402",
+      "course_name": "Basic Data Structures",
+      "course_img": "https://i.ibb.co/Hd7c5zc/Rectangle-3.png",
+      "course_details": "Basic data structures are fundamental building blocks in computer science and software engineering. Understanding these data structures is essential for efficiently storing and manipulating data.",
+      "course_price": 42899.99,
+      "course_credits": 3
+    },
+    {
+      "course_id": "CSE501",
+      "course_name": "AWS, Cloud Computing",
+      "course_img": "https://i.ibb.co/d7gWFTP/Rectangle-3-1.png",
+      "course_details": "Amazon Web Services (AWS) is one of the leading cloud computing platforms, offering a wide range of services for hosting, managing, and scaling applications and infrastructure in the cloud.",
+      "course_price": 4780.99,
+      "course_credits": 2
+    }
+  ]
+  
