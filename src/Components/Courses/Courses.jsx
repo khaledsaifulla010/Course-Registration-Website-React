@@ -3,7 +3,7 @@ import { useState } from "react";
 import Course from "../Course/Course";
 import Cart from "./Cart";
 import { ToastContainer, toast } from 'react-toastify';
-  import 'react-toastify/dist/ReactToastify.css';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 const Courses = () => {
