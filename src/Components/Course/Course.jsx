@@ -1,6 +1,7 @@
 import { FaDollarSign } from 'react-icons/fa';
 import { FaBookOpen} from 'react-icons/fa';
 import PropTypes from 'prop-types';
+import { ToastContainer } from 'react-toastify';
 const Course = ({course, handleSelectButton}) => {
 
     const {img, name, details, price, credits} = course
@@ -22,6 +23,7 @@ const Course = ({course, handleSelectButton}) => {
             </div>
             
             <button className='w-full mt-4 bg-blue-600 p-2 rounded-xl text-white font-semibold' onClick={() => handleSelectButton (course)}>Select</button>
+            <ToastContainer></ToastContainer>
             
         </div>
         
