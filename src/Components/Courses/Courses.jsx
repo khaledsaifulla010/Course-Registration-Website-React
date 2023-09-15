@@ -2,9 +2,9 @@ import { useEffect } from "react";
 import { useState } from "react";
 import Course from "../Course/Course";
 import Cart from "./Cart";
+
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-
 
 const Courses = () => {
 
@@ -25,7 +25,7 @@ const Courses = () => {
         let totalCredits =  course.credits;
         let totalPrice = course.price;
         if(isExist){
-           toast("Already Selected This Course!");
+            toast("Already Selected This Course!");
            
         }
           else{
