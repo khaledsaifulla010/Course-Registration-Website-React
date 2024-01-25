@@ -1,0 +1,75 @@
+[
+    {
+      "id": "CSE101",
+      "name": "Introduction to OOP Python",
+      "img": "https://i.ibb.co/hMcftY3/Rectangle-2.png",
+      "details": "Python is a versatile and popular programming language known for  applications,including web development and more. ",
+      "price": 2099,
+      "credits": 3
+    },
+    {
+      "id": "CSE102",
+      "name": "Database (MySQL)",
+      "img": "https://i.ibb.co/YDtkh7P/Rectangle-2-1.png",
+      "details": "MySQL is a popular open-source relational database management system that is widely used for storing, managing, and retrieving data.",
+      "price": 3409,
+      "credits": 4
+    },
+    {
+      "id": "CSE201",
+      "name": "Introduction to C Programming",
+      "img": "https://i.ibb.co/2jWrJyH/Rectangle-2-2.png",
+      "details": "Learning the C programming language is an excellent starting point for anyone interested in computer programming.",
+      "price": 3979,
+      "credits": 2
+    },
+    {
+      "id": "CSE202",
+      "name": "Introduction to Algorithms",
+      "img": "https://i.ibb.co/nbVDyCT/Rectangle-2-3.png",
+      "details": "Learning about algorithms is fundamental in computer science and programming. Algorithms are step-by-step procedures for solving problems.",
+      "price": 1219,
+      "credits": 3
+    },
+    {
+      "id": "CSE301",
+      "name": "Introduction to C++ for DSA",
+      "img": "https://i.ibb.co/sPpmtzV/Rectangle-2-4.png",
+      "details": "C++ is a powerful programming language commonly used for various software development applications, including system software and more.",
+      "price": 4489,
+      "credits": 3
+    },
+    {
+      "id": "CSE302",
+      "name": "Software Engineering",
+      "img": "https://i.ibb.co/ZBD7VBf/Rectangle-2-5.png",
+      "details": "Software engineering is the systematic approach to designing, developing, testing, and maintaining software systems.",
+      "price": 3249,
+      "credits": 4
+    },
+    {
+      "id": "CSE401",
+      "name": "Problem-Solving Part",
+      "img": "https://i.ibb.co/dMjwTVN/Rectangle-2-6.png",
+      "details": "Problem-solving is a crucial skill in software engineering and computer science. It involves finding efficient solutions to real-world problems.",
+      "price": 3667,
+      "credits": 2
+    },
+    {
+      "id": "CSE402",
+      "name": "Basic Data Structures",
+      "img": "https://i.ibb.co/Hd7c5zc/Rectangle-3.png",
+      "details": "Basic data structures are fundamental building blocks in computer science and software engineering. ",
+      "price": 4215,
+      "credits": 3
+    },
+    {
+      "id": "CSE501",
+      "name": "AWS, Cloud Computing",
+      "img": "https://i.ibb.co/d7gWFTP/Rectangle-3-1.png",
+      "details": "Amazon Web Services (AWS) is one of the leading cloud computing platforms, offering a wide range of services for hosting and more in the cloud.",
+      "price": 5780,
+      "credits": 2
+    }
+  ]
+  
